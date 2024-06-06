@@ -7,7 +7,7 @@ import email from "../assets/icons/social-media/email.webp";
 
 // Import assets projects and skills
 import Dlor24Web from "../assets/images/Webdlor24.jpg";
-// import hmtiUntad from "../assets/images/hmti-untad.webp";
+import LMS20Web from "../assets/images/webLMS20.jpg";
 // import hrev from "../assets/images/hrev.webp";
 // import snResidence from "../assets/images/sn-residence.webp";
 
@@ -30,8 +30,8 @@ import vite from "../assets/icons/tech-stack/vite.svg";
 // import assets experience
 // import eduqat from "../assets/icons/company-logo/eduqat.svg";
 import daskom from "../assets/icons/company-logo/daskom.svg";
-import kodingna from "../assets/icons/company-logo/kodingna.svg";
-import bangkit from "../assets/icons/company-logo/bangkit.svg";
+// import kodingna from "../assets/icons/company-logo/kodingna.svg";
+// import bangkit from "../assets/icons/company-logo/bangkit.svg";
 
 import pattern1 from "../assets/images/patterns/pattern1.svg";
 import pattern2 from "../assets/images/patterns/pattern2.svg";
@@ -91,6 +91,14 @@ export const dataLogoSocialMedia: LogoSocialMedia[] = [
 export const dataProjectss: Projects[] = [
   {
     id: 0,
+    img_url: LMS20Web,
+    logo: logoVillageWebsite,
+    type: "Website LMS 2.0 •",
+    tech_stack_logo: [react, javascript, tailwind],
+    navigate_url: "",
+  },
+  {
+    id: 1,
     img_url: Dlor24Web,
     logo: logoVillageWebsite,
     type: "Website Recruitment •",
