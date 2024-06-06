@@ -7,9 +7,9 @@ import email from "../assets/icons/social-media/email.webp";
 
 // Import assets projects and skills
 import Dlor24Web from "../assets/images/Webdlor24.jpg";
-import hmtiUntad from "../assets/images/hmti-untad.webp";
-import hrev from "../assets/images/hrev.webp";
-import snResidence from "../assets/images/sn-residence.webp";
+// import hmtiUntad from "../assets/images/hmti-untad.webp";
+// import hrev from "../assets/images/hrev.webp";
+// import snResidence from "../assets/images/sn-residence.webp";
 
 import logoVillageWebsite from "../assets/icons/logo-village-website.png";
 
@@ -17,19 +17,19 @@ import nextjs from "../assets/icons/tech-stack/nextjs.svg";
 import react from "../assets/icons/tech-stack/react.svg";
 import typescript from "../assets/icons/tech-stack/typescript.svg";
 import javascript from "../assets/icons/tech-stack/javascript.svg";
-import redux from "../assets/icons/tech-stack/redux.svg";
-import graphql from "../assets/icons/tech-stack/graphql.svg";
-import nodejs from "../assets/icons/tech-stack/nodejs.svg";
+// import redux from "../assets/icons/tech-stack/redux.svg";
+// import graphql from "../assets/icons/tech-stack/graphql.svg";
+// import nodejs from "../assets/icons/tech-stack/nodejs.svg";
 import tailwind from "../assets/icons/tech-stack/tailwind.svg";
-import antdesign from "../assets/icons/tech-stack/antdesign.svg";
-import mongodb from "../assets/icons/tech-stack/mongodb.svg";
-import postgresql from "../assets/icons/tech-stack/postgresql.svg";
-import firebase from "../assets/icons/tech-stack/firebase.svg";
+// import antdesign from "../assets/icons/tech-stack/antdesign.svg";
+// import mongodb from "../assets/icons/tech-stack/mongodb.svg";
+// import postgresql from "../assets/icons/tech-stack/postgresql.svg";
+// import firebase from "../assets/icons/tech-stack/firebase.svg";
 import vite from "../assets/icons/tech-stack/vite.svg";
 
 // import assets experience
-import eduqat from "../assets/icons/company-logo/eduqat.svg";
-import kalla from "../assets/icons/company-logo/kalla.svg";
+// import eduqat from "../assets/icons/company-logo/eduqat.svg";
+import daskom from "../assets/icons/company-logo/daskom.svg";
 import kodingna from "../assets/icons/company-logo/kodingna.svg";
 import bangkit from "../assets/icons/company-logo/bangkit.svg";
 
@@ -105,50 +105,50 @@ export const dataSkills: string[] = [
   react,
   typescript,
   javascript,
-  redux,
-  graphql,
-  nodejs,
+  // redux,
+  // graphql,
+  // nodejs,
   tailwind,
-  antdesign,
-  mongodb,
-  postgresql,
-  firebase,
+  // antdesign,
+  // mongodb,
+  // postgresql,
+  // firebase,
 ];
 
 export const dataExperience: Experience[] = [
+  // {
+  //   id: 0,
+  //   logo_url: eduqat,
+  //   pattern: pattern1,
+  //   name: "Eduqat",
+  //   description: "@Maubelajarapa",
+  //   date: "Jan 2023 - Present",
+  //   position: "Frontend Engineer",
+  //   responsibilites: [
+  //     "Develop an assignments feature for educators and students that allows educators to create assignment materials, publish scores, view student attachments and provide feedback to their students. On the other hand, students can upload attachments and await feedback from their educators.",
+  //     "Develop a drip course feature that enables educators to manage access to materials for their students. When the drip course is enabled, students can access materials after enrolling or upon completing the previous material.",
+  //     "Collaborate with the UI/UX designer team to develop the web into code and work with backend engineer to integrate the functionality and consume APIs.",
+  //     "Participate with the application testing team (Quality Assurance) to ensure that the platform meets the company’s standards for performance and reliability.",
+  //     "Implement clean code, testable code, project flexibility and agile methodologies.",
+  //     "Build, maintain and improve the Eduqat’s platform using Next.js.",
+  //   ],
+  //   first_color: "#0C3342",
+  //   second_color: "#054C5B",
+  //   desc_color: "#B6EDF8",
+  //   position_color: "#002D3E",
+  //   border_color: "#329CA9",
+  // },
   {
     id: 0,
-    logo_url: eduqat,
-    pattern: pattern1,
-    name: "Eduqat",
-    description: "@Maubelajarapa",
-    date: "Jan 2023 - Present",
-    position: "Frontend Engineer",
-    responsibilites: [
-      "Develop an assignments feature for educators and students that allows educators to create assignment materials, publish scores, view student attachments and provide feedback to their students. On the other hand, students can upload attachments and await feedback from their educators.",
-      "Develop a drip course feature that enables educators to manage access to materials for their students. When the drip course is enabled, students can access materials after enrolling or upon completing the previous material.",
-      "Collaborate with the UI/UX designer team to develop the web into code and work with backend engineer to integrate the functionality and consume APIs.",
-      "Participate with the application testing team (Quality Assurance) to ensure that the platform meets the company’s standards for performance and reliability.",
-      "Implement clean code, testable code, project flexibility and agile methodologies.",
-      "Build, maintain and improve the Eduqat’s platform using Next.js.",
-    ],
-    first_color: "#0C3342",
-    second_color: "#054C5B",
-    desc_color: "#B6EDF8",
-    position_color: "#002D3E",
-    border_color: "#329CA9",
-  },
-  {
-    id: 1,
-    logo_url: kalla,
+    logo_url: daskom,
     pattern: pattern2,
-    name: "PT Hadji Kalla",
-    description: "@kallagroup",
-    date: "Aug 2022 - Dec 2022",
-    position: "Web Developer",
+    name: "Daskom Laboratory",
+    description: "Telkom University",
+    date: "Dec 2023 - July 2024",
+    position: "Frontend Developer",
     responsibilites: [
-      "Develop a WhatsApp gateway that enables the company to broadcast messages to customers using Next.js, Tailwind, and Baileys.",
-      "Collaborate with backend developers to integrate the functionality and consume APIs.",
+      "Developed the DLOR24 website using Tailwind CSS and JavaScript to assist in recruitment.",
+      "Created and developed the LMS website version 2.0 using React.js and JavaScript for practicum activities.",
       "Build a web app to ensure the web will be responsive user interface and user-friendly.",
     ],
     first_color: "#01271C",

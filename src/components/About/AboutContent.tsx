@@ -57,7 +57,7 @@ const AboutContent: React.FC = () => {
           alt="about shape vickyadrii"
           className="absolute -z-10 bottom-2 xl:w-auto md:w-56 w-48"
         />
-        <h2 className="md:text-[56px] text-[30px] font-bold text-primary">👨‍💻 About Me</h2>
+        <h2 className="md:text-[56px] text-[30px] font-bold text-primary">👩🏻‍💻 About Me</h2>
         <BurstBload />
       </motion.div>
       <motion.p variants={item} className="xl:text-2xl md:text-base text-sm xl:leading-9 text-medium">
