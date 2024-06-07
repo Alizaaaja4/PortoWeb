@@ -158,9 +158,7 @@ export const dataExperience: Experience[] = [
     responsibilites: [
       "Responsible for all use and development of software in Daskom Laboratory.",
       "Responsible for the maintenance and development of the Daskom website.",
-      "Coordinate with Admin I and ATC to recap the value and presence of practice.",
-      "Coordinate with Admin II and RDC to recap the assistant guard attendance.",
-      "Responsible for the running of Dapur Daskom to prepare the successor to Software.",
+      "Responsible for the running of Web Development Committee (WDC) to prepare the successor to Software.",
       "Coordinate with ATC to ensure that the Preliminary Project (TP), Initial Test (TA), Journal, Independent Questions, and Skill Test (TK) questions for each module and version have been uploaded.",
     ],
     first_color: "#020C12",
