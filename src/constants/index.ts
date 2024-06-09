@@ -17,6 +17,11 @@ import nextjs from "../assets/icons/tech-stack/nextjs.svg";
 import react from "../assets/icons/tech-stack/react.svg";
 import typescript from "../assets/icons/tech-stack/typescript.svg";
 import javascript from "../assets/icons/tech-stack/javascript.svg";
+import chi from "../assets/icons/tech-stack/C.svg";
+import chiPlus from "../assets/icons/tech-stack/cplus.svg";
+import python from "../assets/icons/tech-stack/python.svg";
+import fluter from "../assets/icons/tech-stack/flutter.svg";
+import java from "../assets/icons/tech-stack/java.svg";
 // import redux from "../assets/icons/tech-stack/redux.svg";
 // import graphql from "../assets/icons/tech-stack/graphql.svg";
 // import nodejs from "../assets/icons/tech-stack/nodejs.svg";
@@ -25,7 +30,7 @@ import tailwind from "../assets/icons/tech-stack/tailwind.svg";
 // import mongodb from "../assets/icons/tech-stack/mongodb.svg";
 // import postgresql from "../assets/icons/tech-stack/postgresql.svg";
 // import firebase from "../assets/icons/tech-stack/firebase.svg";
-import vite from "../assets/icons/tech-stack/vite.svg";
+// import vite from "../assets/icons/tech-stack/vite.svg";
 
 // import assets experience
 // import eduqat from "../assets/icons/company-logo/eduqat.svg";
@@ -109,8 +114,13 @@ export const dataProjectss: Projects[] = [
 ];
 
 export const dataSkills: string[] = [
+  chi,
+  chiPlus,
+  python,
+  java,
   nextjs,
   react,
+  fluter,
   typescript,
   javascript,
   // redux,
@@ -121,7 +131,6 @@ export const dataSkills: string[] = [
   // mongodb,
   // postgresql,
   // firebase,
-  vite,
 ];
 
 export const dataExperience: Experience[] = [
