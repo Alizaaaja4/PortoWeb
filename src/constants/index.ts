@@ -29,7 +29,7 @@ import vite from "../assets/icons/tech-stack/vite.svg";
 
 // import assets experience
 // import eduqat from "../assets/icons/company-logo/eduqat.svg";
-import daskom from "../assets/icons/company-logo/daskom.svg";
+import daskom from "../assets/icons/logoDaskom.svg";
 // import kodingna from "../assets/icons/company-logo/kodingna.svg";
 // import bangkit from "../assets/icons/company-logo/bangkit.svg";
 
