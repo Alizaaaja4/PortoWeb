@@ -7,11 +7,13 @@ import email from "../assets/icons/social-media/email.webp";
 
 // Import assets projects and skills
 import Dlor24Web from "../assets/images/Webdlor24.jpg";
-import LMS20Web from "../assets/images/webLMS20.jpg";
+import LMS10Web from "../assets/images/webLMS10.jpg";
+import Blackblutterweb from "../assets/images/webBlackBluter.jpg"
+import dlinkedinWeb from "../assets/images/webDlinkedin.jpg"
 // import hrev from "../assets/images/hrev.webp";
 // import snResidence from "../assets/images/sn-residence.webp";
 
-import logoVillageWebsite from "../assets/icons/logo-village-website.png";
+// import logoVillageWebsite from "../assets/icons/logo-village-website.png";
 
 import nextjs from "../assets/icons/tech-stack/nextjs.svg";
 import react from "../assets/icons/tech-stack/react.svg";
@@ -96,19 +98,31 @@ export const dataLogoSocialMedia: LogoSocialMedia[] = [
 export const dataProjectss: Projects[] = [
   {
     id: 0,
-    img_url: LMS20Web,
-    logo: logoVillageWebsite,
-    type: "Website LMS 2.0 •",
-    tech_stack_logo: [react, javascript, tailwind],
+    img_url: LMS10Web,
+    type: "Website LMS 1.0 •",
+    tech_stack_logo: [javascript, tailwind],
     navigate_url: "",
   },
   {
     id: 1,
     img_url: Dlor24Web,
-    logo: logoVillageWebsite,
     type: "Website Recruitment •",
     tech_stack_logo: [javascript, tailwind],
     navigate_url: "https://recruitment.daskomlab.com/",
+  },
+  {
+    id: 2,
+    img_url: Blackblutterweb,
+    type: "Website Streaming •",
+    tech_stack_logo: [react, javascript, tailwind],
+    navigate_url: "https://web-butlers-diary.vercel.app/",
+  },
+  {
+    id: 3,
+    img_url: dlinkedinWeb,
+    type: "Website DLinkedIn •",
+    tech_stack_logo: [react, javascript, tailwind],
+    navigate_url: "https://demo-web-d-linkedin.vercel.app/",
   },
   
 ];
@@ -162,13 +176,13 @@ export const dataExperience: Experience[] = [
     pattern: pattern2,
     name: "Daskom Laboratory",
     description: "Telkom University",
-    date: "Aug 2024 - Present",
-    position: "Software Developer",
+    date: "Jun 2024 - Present",
+    position: "Practicum Assistant",
     responsibilites: [
+      "Teaching Algorithm and Programming Practicum to first-year students.",
+      "Responsible for giving grades to the students",
       "Responsible for all use and development of software in Daskom Laboratory.",
       "Responsible for the maintenance and development of the Daskom website.",
-      "Responsible for the running of Web Development Committee (WDC) to prepare the successor to Software.",
-      "Coordinate with ATC to ensure that the Preliminary Project (TP), Initial Test (TA), Journal, Independent Questions, and Skill Test (TK) questions for each module and version have been uploaded.",
     ],
     first_color: "#020C12",
     second_color: "#022E4A",
@@ -176,25 +190,25 @@ export const dataExperience: Experience[] = [
     position_color: "#021826",
     border_color: "#1994A4",
   },
-  {
-    id: 1,
-    logo_url: daskom,
-    pattern: pattern2,
-    name: "Daskom Laboratory",
-    description: "Telkom University",
-    date: "Dec 2023 - Jul 2024",
-    position: "Frontend Developer",
-    responsibilites: [
-      "Developed the DLOR24 website using Tailwind CSS and JavaScript to assist in recruitment.",
-      "Created and developed the LMS website version 2.0 using React.js and JavaScript for practicum activities.",
-      "Build a web app to ensure the web will be responsive user interface and user-friendly.",
-    ],
-    first_color: "#01271C",
-    second_color: "#08573E",
-    desc_color: "#C6F8B1",
-    position_color: "#033424",
-    border_color: "#10AA7A",
-  },
+  // {
+  //   id: 1,
+  //   logo_url: daskom,
+  //   pattern: pattern2,
+  //   name: "Daskom Laboratory",
+  //   description: "Telkom University",
+  //   date: "Dec 2023 - Jul 2024",
+  //   position: "Frontend Developer",
+  //   responsibilites: [
+  //     "Developed the DLOR24 website using Tailwind CSS and JavaScript to assist in recruitment.",
+  //     "Created and developed the LMS website version 2.0 using React.js and JavaScript for practicum activities.",
+  //     "Build a web app to ensure the web will be responsive user interface and user-friendly.",
+  //   ],
+  //   first_color: "#01271C",
+  //   second_color: "#08573E",
+  //   desc_color: "#C6F8B1",
+  //   position_color: "#033424",
+  //   border_color: "#10AA7A",
+  // },
   // {
   //   id: 2,
   //   logo_url: kodingna,
