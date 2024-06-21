@@ -101,7 +101,7 @@ export const dataProjectss: Projects[] = [
     img_url: LMS10Web,
     type: "Website LMS 1.0 •",
     tech_stack_logo: [javascript, tailwind],
-    navigate_url: "",
+    navigate_url: "https://www.daskomlab.com/",
   },
   {
     id: 1,
