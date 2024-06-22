@@ -17,13 +17,13 @@ import dlinkedinWeb from "../assets/images/webDlinkedin.jpg"
 
 import nextjs from "../assets/icons/tech-stack/nextjs.svg";
 import react from "../assets/icons/tech-stack/react.svg";
-import typescript from "../assets/icons/tech-stack/typescript.svg";
+// import typescript from "../assets/icons/tech-stack/typescript.svg";
 import javascript from "../assets/icons/tech-stack/javascript.svg";
 import chi from "../assets/icons/tech-stack/C.svg";
 import chiPlus from "../assets/icons/tech-stack/cplus.svg";
 import python from "../assets/icons/tech-stack/python.svg";
-import fluter from "../assets/icons/tech-stack/flutter.svg";
-import java from "../assets/icons/tech-stack/java.svg";
+// import fluter from "../assets/icons/tech-stack/flutter.svg";
+// import java from "../assets/icons/tech-stack/java.svg";
 // import redux from "../assets/icons/tech-stack/redux.svg";
 // import graphql from "../assets/icons/tech-stack/graphql.svg";
 // import nodejs from "../assets/icons/tech-stack/nodejs.svg";
@@ -173,7 +173,7 @@ export const dataExperience: Experience[] = [
   // },
   {
     id: 0,
-    // logo_url: telkom,
+    logo_url: telkom,
     pattern: pattern3,
     name: "NDN-RG Team",
     description: "Telkom University",
