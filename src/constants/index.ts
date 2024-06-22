@@ -37,6 +37,7 @@ import tailwind from "../assets/icons/tech-stack/tailwind.svg";
 // import assets experience
 // import eduqat from "../assets/icons/company-logo/eduqat.svg";
 import daskom from "../assets/icons/logoDaskom.svg";
+// import telkom from "../assets/icons/company-logo/logotelkom.svg"
 // import kodingna from "../assets/icons/company-logo/kodingna.svg";
 // import bangkit from "../assets/icons/company-logo/bangkit.svg";
 
@@ -131,11 +132,11 @@ export const dataSkills: string[] = [
   chi,
   chiPlus,
   python,
-  java,
+  // java,
   nextjs,
   react,
-  fluter,
-  typescript,
+  // fluter,
+  // typescript,
   javascript,
   // redux,
   // graphql,
@@ -172,11 +173,29 @@ export const dataExperience: Experience[] = [
   // },
   {
     id: 0,
+    // logo_url: telkom,
+    pattern: pattern3,
+    name: "NDN-RG Team",
+    description: "Telkom University",
+    date: "Jun 2024 - Present",
+    position: "NDN-RG Research Assistant",
+    responsibilites: [
+      "Collaborate with the team to understand project requirements and design specifications for the NDN protocols and architectures.",
+      "Conduct research and prepare publications for inclusion in a thesis (TA) or capstone project.",
+    ],
+    first_color: "#04121A",
+    second_color: "#024A6A",
+    desc_color: "#AEE0F3",
+    position_color: "#032235",
+    border_color: "#1A8DA1",
+  },
+  {
+    id: 1,
     logo_url: daskom,
     pattern: pattern2,
     name: "Daskom Laboratory",
     description: "Telkom University",
-    date: "Jun 2024 - Present",
+    date: "Jun 2023 - Present",
     position: "Practicum Assistant",
     responsibilites: [
       "Teaching Algorithm and Programming Practicum to first-year students.",
@@ -184,11 +203,11 @@ export const dataExperience: Experience[] = [
       "Responsible for all use and development of software in Daskom Laboratory.",
       "Responsible for the maintenance and development of the Daskom website.",
     ],
-    first_color: "#020C12",
-    second_color: "#022E4A",
-    desc_color: "#BEE7FB",
-    position_color: "#021826",
-    border_color: "#1994A4",
+    first_color: "#01271C",
+    second_color: "#08573E",
+    desc_color: "#C6F8B1",
+    position_color: "#033424",
+    border_color: "#10AA7A",
   },
   // {
   //   id: 1,
@@ -208,25 +227,6 @@ export const dataExperience: Experience[] = [
   //   desc_color: "#C6F8B1",
   //   position_color: "#033424",
   //   border_color: "#10AA7A",
-  // },
-  // {
-  //   id: 2,
-  //   logo_url: kodingna,
-  //   pattern: pattern3,
-  //   name: "Kodingna",
-  //   description: "@Halokodingna",
-  //   date: "Jun 2022 - Sep 2022",
-  //   position: "Frontend Web Developer",
-  //   responsibilites: [
-  //     "Collaborate with the team to understand project requirements and design specifications for the landing page.",
-  //     "Write clean and maintainable code following best practices and coding standards.",
-  //     "Develop the landing page using React and Tailwind.",
-  //   ],
-  //   first_color: "#020C12",
-  //   second_color: "#022E4A",
-  //   desc_color: "#BEE7FB",
-  //   position_color: "#021826",
-  //   border_color: "#1994A4",
   // },
   // {
   //   id: 3,
