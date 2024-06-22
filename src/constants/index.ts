@@ -37,7 +37,7 @@ import tailwind from "../assets/icons/tech-stack/tailwind.svg";
 // import assets experience
 // import eduqat from "../assets/icons/company-logo/eduqat.svg";
 import daskom from "../assets/icons/logoDaskom.svg";
-// import telkom from "../assets/icons/company-logo/logotelkom.svg"
+import telkom from "../assets/icons/company-logo/telkom.png"
 // import kodingna from "../assets/icons/company-logo/kodingna.svg";
 // import bangkit from "../assets/icons/company-logo/bangkit.svg";
 
